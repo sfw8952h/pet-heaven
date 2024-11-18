@@ -1,0 +1,136 @@
+/* Reset and box-sizing setup */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+    background-color: #2f2f2f ; /* Dark gray */
+    color: #fff;
+  }
+  
+
+.about-header {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex; /* Makes the header a flex container */
+    flex-direction: column; /* Arranges the text in a column */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+  }
+  
+  .about-header h2 {
+    font-size: 2rem;
+    color: #d22d3f;
+    margin: 0; /* Removes default margin from h2 */
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+  }
+  
+.wrapper {
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  height: 200px; /* Increased height for better image visibility */
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* Keyframe animations for scrolling left */
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+/* Keyframe animations for scrolling right */
+@keyframes scrollRight {
+  to {
+    right: -200px;
+  }
+}
+
+/* Item styles for left scrolling items */
+.itemLeft,
+.itemRight,
+.itemLeft-third {
+  width: 170px;
+  height: 100%; /* Full height of the wrapper */
+  background-color: #e11d48;
+  border-radius: 6px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+/* First row - scrolling left */
+.itemLeft {
+  left: 100%;
+  animation-name: scrollLeft;
+}
+
+/* Second row - scrolling right */
+.itemRight {
+  right: 100%;
+  animation-name: scrollRight;
+}
+
+/* Third row - scrolling left */
+.itemLeft-third {
+  left: 100%;
+  animation-name: scrollLeft;
+}
+
+/* Delays for staggered animations */
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
