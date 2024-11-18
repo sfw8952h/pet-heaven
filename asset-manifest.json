@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pet-heaven/static/css/main.f780c67f.css",
+    "main.js": "/pet-heaven/static/js/main.13e6ff1d.js",
+    "static/js/453.48d4a44f.chunk.js": "/pet-heaven/static/js/453.48d4a44f.chunk.js",
+    "static/media/face3.jpg": "/pet-heaven/static/media/face3.5f43727709f097ae75e7.jpg",
+    "static/media/face1.jpg": "/pet-heaven/static/media/face1.d07d8e3e54cc585443be.jpg",
+    "static/media/petadoption.png": "/pet-heaven/static/media/petadoption.6c2af844b6b3a223661f.png",
+    "static/media/dog3.jpg": "/pet-heaven/static/media/dog3.fd6541ea354c8a56dc25.jpg",
+    "static/media/dog2.jpg": "/pet-heaven/static/media/dog2.8afbdfc924235507f331.jpg",
+    "static/media/dog1.jpg": "/pet-heaven/static/media/dog1.e55193cc98198d20333a.jpg",
+    "static/media/cat3.jpg": "/pet-heaven/static/media/cat3.772eb0765951dc468bb0.jpg",
+    "static/media/cat2.jpg": "/pet-heaven/static/media/cat2.2e9b1ff582728148b4a7.jpg",
+    "static/media/face2.jpg": "/pet-heaven/static/media/face2.d3e6a09fa74ec03db012.jpg",
+    "static/media/cat1.jpg": "/pet-heaven/static/media/cat1.54bea9cfa041f013a316.jpg",
+    "static/media/releasepet.jpg": "/pet-heaven/static/media/releasepet.e38ec43f782a08d0f557.jpg",
+    "index.html": "/pet-heaven/index.html",
+    "main.f780c67f.css.map": "/pet-heaven/static/css/main.f780c67f.css.map",
+    "main.13e6ff1d.js.map": "/pet-heaven/static/js/main.13e6ff1d.js.map",
+    "453.48d4a44f.chunk.js.map": "/pet-heaven/static/js/453.48d4a44f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f780c67f.css",
+    "static/js/main.13e6ff1d.js"
+  ]
+}
